@@ -1,9 +1,19 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 
-  {%- include heal.html -%}
-  
+  {%- include head.html -%}
+
   <body>
+
+    {%- include header.html -%}
+
+    <main class"page-content">
+        <div class="wrapper">
+          {{ content }}
+        </div>
+    </main>
+
+    {%- include footer.html -%}
 
   </body>
 </html>
