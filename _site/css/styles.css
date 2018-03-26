@@ -297,6 +297,34 @@ template {
 [hidden] {
   display: none; }
 
-h1 {
-  color: yellow;
-  background-color: pink; }
+header {
+  background-color: #bb9d91; }
+
+.site-header {
+  width: 80%;
+  margin: 0 auto; }
+  .site-header h1 {
+    float: left; }
+    .site-header h1 a {
+      text-decoration: none; }
+  .site-header nav {
+    float: right; }
+    .site-header nav ul {
+      margin: 0;
+      padding: 0;
+      list-style: none; }
+    .site-header nav li {
+      display: inline-block;
+      margin-left: 20px;
+      padding-top: 25px;
+      position: relative; }
+    .site-header nav a {
+      text-decoration: none;
+      text-transform: uppercase; }
+  .site-header nav a:hover {
+    color: green; }
+
+header::after {
+  content: '';
+  display: table;
+  clear: both; }
