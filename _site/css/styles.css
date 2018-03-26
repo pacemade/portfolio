@@ -300,6 +300,11 @@ template {
 header {
   background-color: #bb9d91; }
 
+header::after {
+  content: '';
+  display: table;
+  clear: both; }
+
 .site-header {
   width: 80%;
   margin: 0 auto; }
@@ -321,10 +326,19 @@ header {
     .site-header nav a {
       text-decoration: none;
       text-transform: uppercase; }
-  .site-header nav a:hover {
-    color: green; }
 
-header::after {
+nav a:hover {
+  color: green; }
+
+nav a::before {
   content: '';
-  display: table;
-  clear: both; }
+  display: block;
+  height: 5px;
+  background-color: #444;
+  position: absolute;
+  top: 10px;
+  width: 0%;
+  transition: all ease-in-out 150ms; }
+
+nav a:hover::before {
+  width: 100%; }
