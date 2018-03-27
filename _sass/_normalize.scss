@@ -8,9 +8,13 @@
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
 
+
 html {
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
+  // this helps to keep footer at the bottom
+  position: relative;
+  min-height: 100%;
 }
 
 /* Sections
@@ -21,7 +25,9 @@ html {
  */
 
 body {
-  margin: 0;
+  // this also helps to keep the footer at the bottom
+  margin: 0 0 100px; /* bottom = footer height */
+  padding: 25px;
 }
 
 /**
