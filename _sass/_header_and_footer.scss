@@ -1,5 +1,5 @@
 header {
-  background-color: rgb(187, 157, 145);
+  background-color: $primaryColor;
 }
 
 // this lets the nav float right without being weird
@@ -16,6 +16,7 @@ header::after {
     float: left;
     a {
       text-decoration: none;
+      color: $anchorColor;
     }
   }
   nav {
@@ -35,12 +36,13 @@ header::after {
     a {
       text-decoration: none;
       text-transform: uppercase;
+      color: $anchorColor;
     }
   }
 }
 
 nav a:hover {
-  color: green;
+  color: $hoverColor;
 }
 
 // Makes the square thingies ease in
@@ -48,7 +50,7 @@ nav a::before {
   content: '';
   display: block;
   height: 5px;
-  background-color: #444;
+  background-color: $anchorColor;
 
   position: absolute;
   top: 10px;
@@ -63,22 +65,19 @@ nav a:hover::before {
 
 // footer starts here ===================
 
-html {
-    position: relative;
-    min-height: 100%;
-}
-
-body {
-    margin: 0 0 100px; /* bottom = footer height */
-    padding: 25px;
-}
-
 footer {
-    border: 5px solid black;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    height: 100px;
-    width: 100%;
-    overflow:hidden;
+  background-color:$primaryColor;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 50px;
+  width: 100%;
+  overflow:hidden;
+}
+
+.site-footer {
+  width: 80%;
+  margin: 0 auto;
+  background-color: $primaryColor;
+  color: $anchorColor;
 }
