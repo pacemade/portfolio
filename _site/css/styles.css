@@ -307,7 +307,7 @@ body {
   background-color: #d5d5d3; }
 
 .wrapper {
-  width: 90%;
+  width: 100%;
   margin: 0 auto; }
 
 header {
@@ -388,7 +388,7 @@ footer {
   /* Safari transitionend event.propertyName === flex */
   /* Chrome + FF transitionend event.propertyName === flex-grow */
   transition: 0.7s ease-out, background 0.2s;
-  font-size: 10px;
+  font-size: 30px;
   background-size: cover;
   background-position: center;
   flex: 1;
