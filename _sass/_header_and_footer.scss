@@ -1,9 +1,10 @@
 header {
+  width: 100%;
   background-color: $primaryColor;
 }
 
 // this lets the nav float right without being weird
-header::after {
+.site-header::after {
   content: '';
   display: table;
   clear: both;
@@ -70,7 +71,7 @@ footer {
   position: absolute;
   left: 0;
   bottom: 0;
-  height: 50px;
+  height: 70px;
   width: 100%;
   overflow:hidden;
 }
