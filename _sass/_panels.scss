@@ -3,6 +3,10 @@
   min-height:100vh;
   overflow: hidden;
   display: flex;
+  img:hover {
+    -webkit-filter: drop-shadow(0px 0px 15px $anchorColor);
+    filter: drop-shadow(0px 0px 15px $anchorColor);
+  }
 }
 
 .panel {
@@ -42,9 +46,9 @@
   align-items: center;
 }
 
-.panel > *:first-child { transform: translateY(-100%); }
+.panel > p:first-child { transform: translateY(-100%); }
 .panel.open-active > *:first-child { transform: translateY(150px); }
-.panel > *:last-child { transform: translateY(100%); }
+.panel > p:last-child { transform: translateY(100%); }
 .panel.open-active > *:last-child { transform: translateY(-150px); }
 
 .panel p {
@@ -62,10 +66,13 @@
   .icon {
     height: 200px;
     width: 200px;
+    img {
+      transition: 0.7s;
+    }
   }
   .dj img {
     transform: rotate(-60deg);
-    transition: 1.0s;
+    transition: 0.7s;
   }
 }
 
