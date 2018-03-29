@@ -307,7 +307,7 @@ body {
   background-color: #d5d5d3; }
 
 .wrapper {
-  width: 100%;
+  width: 90%;
   margin: 0 auto; }
 
 header {
@@ -462,7 +462,7 @@ div.gallery {
   margin: 5px;
   border: 1px solid #ccc;
   float: left;
-  width: 180px; }
+  width: 300px; }
 
 div.gallery:hover {
   border: 1px solid #777; }
