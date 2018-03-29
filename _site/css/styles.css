@@ -308,7 +308,19 @@ body {
 
 .wrapper {
   width: 90%;
+  margin: 0 auto;
+  overflow: hidden; }
+
+.portrait {
+  height: 200px;
+  width: 200px;
+  text-align: center;
   margin: 0 auto; }
+  .portrait img {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    object-fit: cover; }
 
 header {
   width: 100%;
