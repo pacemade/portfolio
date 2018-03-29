@@ -6,17 +6,17 @@ layout: default
 
 {% for gallery in site.data.galleries %}
   {% if gallery.id == page.galleryid %}
-    <h1>{{ gallery.description }}</h1>
-    <ul>
+    <h1>{{ gallery.id }}</h1>
+    <h4>{{ gallery.description }}</h4>
+
     {% for image in gallery.images %}
-      <li>
-        {{ image.text }}<br>
+      {{ image.text }}<br>
+      <div class="gallery">
         <a href="{{ gallery.imagefolder }}/{{ image.name }}" data-lightbox="{{ gallery.id }}" title="{{ image.text }}">
           <img src="{{ gallery.imagefolder }}/{{ image.thumb }}">
         </a>
-      </li>
+      </div>
     {% endfor %}
-  </ul>
   {% endif %}
 {% endfor %}
 
