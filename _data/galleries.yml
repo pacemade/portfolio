@@ -1,0 +1,10 @@
+- id: example
+  description: Example Gallery That I need to see
+  imagefolder: /assets/images/example
+  images:
+  - name: Scan1.jpeg
+    thumb: Scan1.jpeg
+  - name: Scan2.jpeg
+    thumb: Scan2.jpeg
+  - name: Scan3.jpeg
+    thumb: Scan3.jpeg
