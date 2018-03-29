@@ -43,14 +43,14 @@
 }
 
 .panel > *:first-child { transform: translateY(-100%); }
-.panel.open-active > *:first-child { transform: translateY(0); }
+.panel.open-active > *:first-child { transform: translateY(150px); }
 .panel > *:last-child { transform: translateY(100%); }
-.panel.open-active > *:last-child { transform: translateY(0); }
+.panel.open-active > *:last-child { transform: translateY(-150px); }
 
 .panel p {
   text-transform: uppercase;
   text-shadow:0 0 4px rgba(0, 0, 0, 0.72), 0 0 14px rgba(0, 0, 0, 0.45);
-  font-size: 2em;
+  font-size: 1.5em;
 }
 .panel p:nth-child(2) {
   font-size: 2em;
@@ -59,4 +59,22 @@
 .panel.open {
   flex: 5;
   font-size:40px;
+  .icon {
+    height: 200px;
+    width: 200px;
+  }
+  .dj img {
+    transform: rotate(-60deg);
+    transition: 1.0s;
+  }
+}
+
+.icon {
+  height: 100px;
+  width: 100px;
+  transition: 0.7s;
+}
+
+.dj img {
+  transition: 0.8s;
 }
