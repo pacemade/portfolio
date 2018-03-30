@@ -312,15 +312,15 @@ body {
   overflow: hidden; }
 
 .portrait {
-  height: 200px;
-  width: 200px;
   text-align: center;
-  margin: 0 auto; }
+  margin: 50px 0 75px auto; }
   .portrait img {
     border-radius: 50%;
+    border: 5px solid #252525;
     height: 200px;
     width: 200px;
-    object-fit: cover; }
+    object-fit: cover;
+    background-color: #252525; }
 
 header {
   width: 100%;
@@ -471,13 +471,14 @@ footer {
   transition: 0.8s; }
 
 div.gallery {
-  margin: 5px;
-  border: 1px solid #ccc;
+  margin: 0px;
   float: left;
-  width: 300px; }
+  width: 30%;
+  text-align: center; }
 
-div.gallery:hover {
-  border: 1px solid #777; }
+.gallery-container .gallery:nth-child(3n+2) {
+  margin-left: 5%;
+  margin-right: 5%; }
 
 div.gallery img {
   width: 100%;

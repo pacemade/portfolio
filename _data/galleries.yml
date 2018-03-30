@@ -1,6 +1,6 @@
 - id: example
   description: Example Gallery That I need to see
-  imagefolder: /assets/images/example
+  imagefolder: /assets/images/albums/example
   images:
   - name: Scan1.jpeg
     thumb: Scan1.jpeg
@@ -8,3 +8,39 @@
     thumb: Scan2.jpeg
   - name: Scan3.jpeg
     thumb: Scan3.jpeg
+
+- id: example2
+  description: Second Gallery
+  imagefolder: /assets/images/albums/example2
+  images:
+  - name: Scan 6.jpeg
+    thumb: Scan 6.jpeg
+  - name: Scan 7.jpeg
+    thumb: Scan 7.jpeg
+  - name: Scan 8.jpeg
+    thumb: Scan 8.jpeg
+  - name: Scan 9.jpeg
+    thumb: Scan 9.jpeg
+  - name: Scan 10.jpeg
+    thumb: Scan 10.jpeg
+  - name: Scan 11.jpeg
+    thumb: Scan 11.jpeg
+  - name: Scan 12.jpeg
+    thumb: Scan 12.jpeg
+  - name: Scan 14.jpeg
+    thumb: Scan 14.jpeg
+
+- id: example3
+  description: Third gallery tryna figure shit out
+  imagefolder: /assets/images/albums/example3
+  images:
+  - name: Scan 13.jpeg
+    thumb: Scan 13.jpeg
+  - name: Scan 15.jpeg
+    thumb: Scan 15.jpeg
+  - name: Scan 16.jpeg
+    thumb: Scan 16.jpeg
+  - name: Scan 17.jpeg
+    thumb: Scan 17.jpeg
+  - name: Scan 18.jpeg
+    thumb: Scan 18.jpeg
