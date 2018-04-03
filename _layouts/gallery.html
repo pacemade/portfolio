@@ -10,20 +10,18 @@ layout: default
     {% if gallery.id == page.galleryid %}
       <h1>{{ gallery.id }}</h1>
       <h4>{{ gallery.description }}</h4>
-      <ul>
-      {% for image in gallery.images %}
-      <li class="block">
-        <div class="gallery masonry">
-            <div class="item"><a href="{{ gallery.imagefolder }}/{{ image.name }}" data-lightbox="{{ gallery.id }}" title="{{ image.text }}">
-              <img src="{{ gallery.imagefolder }}/{{ image.thumb }}">
+      <div class="masonry">
+        {% for image in gallery.images %}
+          <div class="item"><a href="{{ gallery.imagefolder }}/{{ image.name }}" data-lightbox="{{ gallery.id }}" title="{{ image.text }}">
+            <img src="{{ gallery.imagefolder }}/{{ image.thumb }}">
             </a>
           </div>
-        </div>
-      </li>
-      {% endfor %}
+        {% endfor %}
+      </div>
     {% endif %}
   {% endfor %}
 
 </div>
+
 
 <script src="/assets/js/lightbox.js"></script>
