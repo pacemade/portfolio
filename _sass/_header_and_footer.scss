@@ -11,57 +11,23 @@ header {
 }
 
 .site-header {
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
-  h1 {
-    float: left;
-    a {
-      text-decoration: none;
-      color: $anchorColor;
-    }
-  }
-  nav {
-    float: right;
-    ul {
-      margin: 0;
-      padding: 0;
-      list-style: none;
-    }
-    li {
-      display: inline-block;
-      margin-left: 20px;
-      padding-top: 25px;
-
-      position: relative;
-    }
-    a {
-      text-decoration: none;
-      text-transform: uppercase;
-      color: $anchorColor;
-    }
-  }
+  z-index: 3;
 }
 
-nav a:hover {
+.menu a:hover {
   color: $hoverColor;
 }
 
-// Makes the square thingies ease in
-nav a::before {
-  content: '';
-  display: block;
-  height: 5px;
-  background-color: $anchorColor;
-
-  position: absolute;
-  top: 10px;
-  width: 0%;
-
-  transition: all ease-in-out 150ms;
+.menu li {
+  list-style-type: none;
 }
 
-nav a:hover::before {
-  width: 100%;
+.menu a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: $anchorColor;
 }
 
 // footer starts here ===================
@@ -81,4 +47,112 @@ footer {
   margin: 0 auto;
   background-color: $primaryColor;
   color: $anchorColor;
+}
+
+// Hamburger menu
+
+.site-header ul {
+  overflow: hidden;
+}
+
+.site-header .logo {
+  display: block;
+  float: left;
+  font-size: 2em;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: $anchorColor;
+}
+
+// Menu
+
+.site-header .menu {
+  clear: both;
+  max-height: 0;
+  transition: max-height .7s ease-in;
+}
+
+// Menu Icon
+
+.site-header .menu-icon {
+  cursor: pointer;
+  display: inline-block;
+  float: right;
+  padding: 28px 20px;
+  position: relative;
+  user-select: none;
+}
+
+.site-header .menu-icon .navicon {
+  background: #333;
+  display: block;
+  height: 2px;
+  position: relative;
+  transition: background .2s ease-out;
+  width: 18px;
+}
+
+.site-header .menu-icon .navicon:before,
+.site-header .menu-icon .navicon:after {
+  background: #333;
+  content: '';
+  display: block;
+  height: 100%;
+  position: absolute;
+  transition: all .2s ease-out;
+  width: 100%;
+}
+
+.site-header .menu-icon .navicon:before {
+  top: 5px;
+}
+
+.site-header .menu-icon .navicon:after {
+  top: -5px;
+}
+
+// menu btn
+
+.site-header .menu-btn {
+  display: none;
+}
+
+.site-header .menu-btn:checked ~ .menu {
+  max-height: 240px;
+}
+
+.site-header .menu-btn:checked ~ .menu-icon .navicon {
+  background: transparent;
+}
+
+.site-header .menu-btn:checked ~ .menu-icon .navicon:before {
+  transform: rotate(-45deg);
+}
+
+.site-header .menu-btn:checked ~ .menu-icon .navicon:after {
+  transform: rotate(45deg);
+}
+
+.site-header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
+.site-header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+  top: 0;
+}
+
+// Responsive
+
+@media (min-width: 48em) {
+  .site-header li {
+    float: left;
+  }
+  .site-header li a {
+    padding: 20px 30px;
+  }
+  .site-header .menu {
+    clear: none;
+    float: right;
+    max-height: none;
+  }
+  .site-header .menu-icon {
+    display: none;
+  }
 }
