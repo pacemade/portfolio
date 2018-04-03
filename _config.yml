@@ -1,3 +1,4 @@
 markdown: kramdown
 baseurl: "portfolio"
 include: ["_pages"]
+root: /portfolio
