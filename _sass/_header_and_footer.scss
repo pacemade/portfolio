@@ -26,8 +26,8 @@ header {
 
 .menu a {
   text-decoration: none;
-  text-transform: uppercase;
   color: $anchorColor;
+  font-size: 2em;
 }
 
 // footer starts here ===================
@@ -58,7 +58,7 @@ footer {
 .site-header .logo {
   display: block;
   float: left;
-  font-size: 2em;
+  font-size: 3em;
   padding: 10px 20px;
   text-decoration: none;
   color: $anchorColor;
@@ -69,7 +69,7 @@ footer {
 .site-header .menu {
   clear: both;
   max-height: 0;
-  transition: max-height .7s ease-in;
+  transition: max-height .5s ease-in;
 }
 
 // Menu Icon
@@ -140,12 +140,13 @@ footer {
 
 // Responsive
 
-@media (min-width: 48em) {
+@media only screen and (min-width: 1000px) {
   .site-header li {
     float: left;
   }
   .site-header li a {
     padding: 20px 30px;
+    font-size: 1.5em;
   }
   .site-header .menu {
     clear: none;

@@ -344,8 +344,8 @@ header {
 
 .menu a {
   text-decoration: none;
-  text-transform: uppercase;
-  color: #fdd947; }
+  color: #fdd947;
+  font-size: 2em; }
 
 footer {
   background-color: #252525;
@@ -368,7 +368,7 @@ footer {
 .site-header .logo {
   display: block;
   float: left;
-  font-size: 2em;
+  font-size: 3em;
   padding: 10px 20px;
   text-decoration: none;
   color: #fdd947; }
@@ -376,7 +376,7 @@ footer {
 .site-header .menu {
   clear: both;
   max-height: 0;
-  transition: max-height .7s ease-in; }
+  transition: max-height .5s ease-in; }
 
 .site-header .menu-icon {
   cursor: pointer;
@@ -429,12 +429,13 @@ footer {
 .site-header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
   top: 0; }
 
-@media (min-width: 48em) {
+@media only screen and (min-width: 1000px) {
   .site-header li {
     float: left; }
 
   .site-header li a {
-    padding: 20px 30px; }
+    padding: 20px 30px;
+    font-size: 1.5em; }
 
   .site-header .menu {
     clear: none;
