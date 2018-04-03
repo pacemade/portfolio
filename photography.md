@@ -7,11 +7,11 @@ layout: default
   <h2> Sony A7 | 35mm  </h2>
 </div>
 
-<div class="gallery-container">
+<div class="album-container">
 
 {% for gallery in site.data.galleries %}
 
-  <div class="gallery" markdown="1" >
+  <div class="album" markdown="1" >
   <a href="{{ gallery.id }}">
   ![{{ gallery.id }}]({{ gallery.imagefolder }}/{{gallery.images[0].name }})
   </a>

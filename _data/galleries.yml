@@ -34,13 +34,23 @@
   description: Third gallery tryna figure shit out
   imagefolder: /assets/images/albums/example3
   images:
-  - name: Scan 13.jpeg
-    thumb: Scan 13.jpeg
-  - name: Scan 15.jpeg
-    thumb: Scan 15.jpeg
-  - name: Scan 16.jpeg
-    thumb: Scan 16.jpeg
-  - name: Scan 17.jpeg
-    thumb: Scan 17.jpeg
-  - name: Scan 18.jpeg
-    thumb: Scan 18.jpeg
+  - name: pic1.jpg
+    thumb: pic1.jpg
+  - name: pic2.jpg
+    thumb: pic2.jpg
+  - name: pic3.jpg
+    thumb: pic3.jpg
+  - name: pic4.jpg
+    thumb: pic4.jpg
+  - name: pic5.jpg
+    thumb: pic5.jpg
+  - name: pic6.jpg
+    thumb: pic6.jpg
+  - name: pic7.jpg
+    thumb: pic7.jpg
+  - name: pic8.jpg
+    thumb: pic8.jpg
+  - name: pic9.jpeg
+    thumb: pic9.jpeg
+  - name: pic10.jpg
+    thumb: pic10.jpg
