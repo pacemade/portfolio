@@ -12,7 +12,7 @@ layout: default
 {% for gallery in site.data.galleries %}
 
   <div class="album" markdown="1" >
-  <a href="{{ gallery.id }}">
+  <a href="{{ gallery.id }}.html">
   ![{{ gallery.id }}]({{ gallery.imagefolder }}/{{gallery.images[0].name }})
   </a>
     {{ gallery.id }}
