@@ -2,3 +2,5 @@
 gem "jekyll", "~> 3.7.3"
 
 gem 'sass'
+
+gem 's3_website'
