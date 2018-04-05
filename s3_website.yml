@@ -32,6 +32,7 @@ cloudfront_distribution_id: E3NA1WN213COBG
 
 ignore_on_server:
   - assets/images/albums
+  - assets/images
 
 # exclude_from_upload:
 #   - those_folders_of_stuff
