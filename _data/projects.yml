@@ -1,0 +1,13 @@
+- id: project1
+  description: example project that i need to see
+  imagefolder: /assets/images/projects/project1
+  images:
+  - name: home.png
+    thumb: home.png
+    text: 
+  - name: googleMaps.png
+    thumb: googleMaps.png
+  - name: newAccount.png
+    thumb: newAccount.png
+  - name: profilePage.png
+    thumb: profilePage.png
