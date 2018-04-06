@@ -1,0 +1,25 @@
+---
+layout: default
+---
+<link href="/css/lightbox.css" rel="stylesheet" />
+
+<div class="gallery-container">
+
+  {% for project in site.data.projects %}
+    {% if project.id == page.projectid %}
+      <h1>{{ project.id }}</h1>
+      <h4>{{ project.description }}</h4>
+      <div class="masonry">
+        {% for image in project.images %}
+          <div class="item"><a href="{{ project.imagefolder }}/{{ image.name }}" data-lightbox="{{ project.id }}" title="{{ image.text }}">
+            <img src="{{ project.imagefolder }}/{{ image.thumb }}">
+            </a>
+          </div>
+        {% endfor %}
+      </div>
+    {% endif %}
+  {% endfor %}
+
+</div>
+
+<script src="/assets/js/lightbox.js"></script>
