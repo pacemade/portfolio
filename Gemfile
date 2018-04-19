@@ -8,3 +8,5 @@ gem 'sass'
 gem 's3_website'
 
 gem 'rake'
+
+gem 'aws-sdk-s3', '~> 1'

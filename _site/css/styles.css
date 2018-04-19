@@ -453,9 +453,7 @@ footer {
   min-height: 100vh;
   overflow: hidden;
   display: flex; }
-  .panels .dj img:hover {
-    transform: rotate(-60deg); }
-  .panels img:hover {
+  .panels a:hover {
     -webkit-filter: drop-shadow(0px 0px 15px #fdd947);
     filter: drop-shadow(0px 0px 15px #fdd947); }
 
@@ -521,17 +519,13 @@ footer {
   .panel.open .icon {
     height: 200px;
     width: 200px; }
-    .panel.open .icon img {
+    .panel.open .icon a {
       transition: 0.7s; }
 
 .icon {
   height: 100px;
   width: 100px;
   transition: 0.7s; }
-
-.dj img {
-  transform-origin: 84px 84px;
-  transition: 0.8s; }
 
 div.album {
   margin: 0px;
