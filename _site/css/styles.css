@@ -363,10 +363,13 @@ footer {
   color: #fdd947;
   display: table;
   text-align: center; }
+  .site-footer .copyright h5 {
+    margin-top: 0; }
 
 .social {
-  display: table-cell;
-  vertical-align: middle; }
+  display: block;
+  vertical-align: middle;
+  margin-bottom: 0; }
   .social img {
     width: 40px;
     margin: 15px; }

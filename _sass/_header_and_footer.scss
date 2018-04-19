@@ -49,13 +49,17 @@ footer {
   color: $anchorColor;
   display: table;
   text-align: center;
+  .copyright h5 {
+    margin-top: 0;
+  }
 }
 
 // SOCIAL ICONS
 
 .social {
-  display: table-cell;
+  display: block;
   vertical-align: middle;
+  margin-bottom: 0;
   img {
     width: 40px;
     margin: 15px;
