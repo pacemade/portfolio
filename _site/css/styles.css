@@ -352,7 +352,7 @@ footer {
   position: absolute;
   left: 0;
   bottom: 0;
-  height: 70px;
+  height: 100px;
   width: 100%;
   overflow: hidden; }
 
@@ -360,7 +360,16 @@ footer {
   width: 80%;
   margin: 0 auto;
   background-color: #252525;
-  color: #fdd947; }
+  color: #fdd947;
+  display: table;
+  text-align: center; }
+
+.social {
+  display: table-cell;
+  vertical-align: middle; }
+  .social img {
+    width: 50px;
+    margin: 15px; }
 
 .site-header ul {
   overflow: hidden; }
