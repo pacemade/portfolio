@@ -57,8 +57,11 @@ footer {
   display: table-cell;
   vertical-align: middle;
   img {
-    width: 50px;
+    width: 40px;
     margin: 15px;
+  }
+  img:hover {
+    opacity: 0.5;
   }
 }
 

@@ -368,8 +368,10 @@ footer {
   display: table-cell;
   vertical-align: middle; }
   .social img {
-    width: 50px;
+    width: 40px;
     margin: 15px; }
+  .social img:hover {
+    opacity: 0.5; }
 
 .site-header ul {
   overflow: hidden; }
