@@ -493,18 +493,6 @@ footer {
   justify-content: center;
   align-items: center; }
 
-.panel > p:first-child {
-  transform: translateY(-100%); }
-
-.panel.open-active > *:first-child {
-  transform: translateY(150px); }
-
-.panel > p:last-child {
-  transform: translateY(100%); }
-
-.panel.open-active > *:last-child {
-  transform: translateY(-150px); }
-
 .panel p {
   text-transform: uppercase;
   text-shadow: 0 0 4px rgba(0, 0, 0, 0.72), 0 0 14px rgba(0, 0, 0, 0.45); }
