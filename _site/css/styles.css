@@ -308,7 +308,7 @@ body {
 
 .wrapper {
   width: 95%;
-  margin: 3em auto;
+  margin: 10em auto;
   overflow: hidden; }
 
 .portrait {
@@ -490,7 +490,7 @@ footer {
   flex-direction: column; }
 
 .panel1 {
-  background-image: url(/assets/images/home/boysPinball.JPG); }
+  background-image: url(/assets/images/home/kittyMilk.JPG); }
 
 .panel2 {
   background-image: url(/assets/images/home/beeSmiles.JPG); }
