@@ -524,6 +524,9 @@ footer {
   width: 100px;
   transition: 0.7s; }
 
+div.album p {
+  text-align: center; }
+
 @media only screen and (min-width: 768px) {
   div.album {
     margin: 0px;
