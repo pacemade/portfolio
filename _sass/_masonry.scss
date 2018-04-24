@@ -29,7 +29,7 @@
 
 // Responsiveness
 
-@media only screen and (min-width: 320px) {
+@media only screen and (min-width: $small) {
   .masonry {
     -moz-column-count: 1;
     -webkit-column-count: 1;
@@ -37,7 +37,7 @@
   }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: $medium) {
   .masonry {
     -moz-column-count: 2;
     -webkit-column-count: 2;
@@ -45,7 +45,7 @@
   }
 }
 
-@media only screen and (min-width: 960px) {
+@media only screen and (min-width: $large) {
   .masonry {
     -moz-column-count: 3;
     -webkit-column-count: 3;
