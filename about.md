@@ -1,25 +1,9 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr"><head>
-  <meta charset="utf-8">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <link rel="stylesheet" href="/css/styles.css">
-</head>
-<body><header class="header">
-  <div class="site-header">
-    <a class="logo" href="/index.html">helloitsdanny</a>
-    <input class="menu-btn" type="checkbox" id="menu-btn" />
-    <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
-      <ul class="menu">
-        <li><a href="/about.html">about</a></li>
-        <li><a href="/web_dev.html">web development</a></li>
-        <li><a href="/photography.html">photography</a></li>
-      </ul>
-    </div>
-</header>
-<main class"page-content">
-        <div class="wrapper">
-          <div class="portrait">
-  <p><img src="/assets/images/portraits/sonyA7.jpg" alt="Me" /></p>
+---
+layout: default
+---
+
+<div class="portrait" markdown="1">
+  ![Me](/assets/images/portraits/sonyA7.jpg)
   <h2> Web Developer | DJ | Dancer | Artist | Friend  </h2>
 </div>
 
@@ -57,33 +41,16 @@
 <h3>Other Things</h3>
 
 <div class="album-container">
-  <div class="album">
-    <p><img src="/assets/images/home/beeSmiles.JPG" alt="me djing" />
-   Caption goes here</p>
+  <div class="album" markdown="1">
+   ![me djing](/assets/images/home/beeSmiles.JPG)
+   Caption goes here
   </div>
-  <div class="album">
-    <p><img src="/assets/images/home/beeSmiles.JPG" alt="me djing" />
-   Caption goes here</p>
+  <div class="album" markdown="1">
+   ![me djing](/assets/images/home/beeSmiles.JPG)
+   Caption goes here
   </div>  
-  <div class="album">
-    <p><img src="/assets/images/home/beeSmiles.JPG" alt="me djing" />
-   Caption goes here</p>
+  <div class="album" markdown="1">
+   ![me djing](/assets/images/home/beeSmiles.JPG)
+   Caption goes here
   </div>
 </div>
-
-        </div>
-    </main><footer>
-  <div class="site-footer">
-    <div class="social">
-      <a href='https://www.linkedin.com/in/dannychachang/' target="_blank"><img src="/assets/images/home/linkedinIcon.png" alt="" class="social-icon"></a>
-      <a href='https://github.com/pacemade' target="_blank"><img src="/assets/images/home/githubIcon.png" alt="" class="social-icon"></a>
-      <a href='mailto:dannychachang@gmail.com' target="_blank"><img src="/assets/images/home/emailIcon.png" alt="" class="social-icon"></a>
-      <a href='https://www.instagram.com/pacemade/' target="_blank"><img src="/assets/images/home/igIcon.png" alt="" class="social-icon"></a>
-    </div>
-    <div class="copyright">
-      <h5>&copy; 2018 Danny Chang</h5>
-    </div>
-  </div>
-</footer>
-</body>
-</html>
