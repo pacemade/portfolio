@@ -53,4 +53,8 @@ layout: default
    ![my dancing](/assets/images/home/beeSmiles.JPG)
    Dance
   </div>
+  <div class="album" markdown="1">
+   ![my videogames](/assets/images/home/beeSmiles.JPG)
+   Video Games
+  </div>
 </div>
