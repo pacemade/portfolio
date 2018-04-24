@@ -8,7 +8,7 @@ layout: default
 
   {% for gallery in site.data.galleries %}
     {% if gallery.id == page.galleryid %}
-      <h1>{{ gallery.id }}</h1>
+      <h1>{{ gallery.title }}</h1>
       <h4>{{ gallery.description }}</h4>
       <div class="masonry">
         {% for image in gallery.images %}

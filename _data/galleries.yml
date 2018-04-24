@@ -1,58 +1,130 @@
-- id: example
-  description: Example Gallery That I need to see
-  imagefolder: /assets/images/albums/example
+- id: AGO2017
+  title: AGO 2017
+  description: Art Gallery of Ontario, October 1st, 2017
+  imagefolder: /assets/images/albums/AGO2017
   images:
-  - name: Scan1.jpeg
-    thumb: Scan1.jpeg
-  - name: Scan2.jpeg
-    thumb: Scan2.jpeg
-  - name: Scan3.jpeg
-    thumb: Scan3.jpeg
+  - name: Heavy, Heavy Hoop Dreams-9.jpg
+    thumb: Heavy, Heavy Hoop Dreams-9.jpg
+  - name: Heavy, Heavy Hoop Dreams.jpg
+    thumb: Heavy, Heavy Hoop Dreams.jpg
+  - name: Heavy, Heavy Hoop Dreams-2.jpg
+    thumb: Heavy, Heavy Hoop Dreams-2.jpg
+  - name: Heavy, Heavy Hoop Dreams-3.jpg
+    thumb: Heavy, Heavy Hoop Dreams-3.jpg
+  - name: Heavy, Heavy Hoop Dreams-4.jpg
+    thumb: Heavy, Heavy Hoop Dreams-4.jpg
+  - name: Heavy, Heavy Hoop Dreams-5.jpg
+    thumb: Heavy, Heavy Hoop Dreams-5.jpg
+  - name: Heavy, Heavy Hoop Dreams-6.jpg
+    thumb: Heavy, Heavy Hoop Dreams-6.jpg
+  - name: Heavy, Heavy Hoop Dreams-10.jpg
+    thumb: Heavy, Heavy Hoop Dreams-10.jpg
 
-- id: example2
-  description: Second Gallery
-  imagefolder: /assets/images/albums/example2
+- id: CBP2017
+  title: Pub Crawl 2017
+  description: Craft Beer Passport on Danforth, October 24th, 2017
+  imagefolder: /assets/images/albums/CBP2017
   images:
-  - name: Scan 6.jpeg
-    thumb: Scan 6.jpeg
-  - name: Scan 7.jpeg
-    thumb: Scan 7.jpeg
-  - name: Scan 8.jpeg
-    thumb: Scan 8.jpeg
-  - name: Scan 9.jpeg
-    thumb: Scan 9.jpeg
-  - name: Scan 10.jpeg
-    thumb: Scan 10.jpeg
-  - name: Scan 11.jpeg
-    thumb: Scan 11.jpeg
-  - name: Scan 12.jpeg
-    thumb: Scan 12.jpeg
-  - name: Scan 14.jpeg
-    thumb: Scan 14.jpeg
+  - name: craftbeerpassport.jpg
+    thumb: craftbeerpassport.jpg
+  - name: craftbeerpassport-5.jpg
+    thumb: craftbeerpassport-5.jpg
+  - name: craftbeerpassport-6.jpg
+    thumb: craftbeerpassport-6.jpg
+  - name: craftbeerpassport-7.jpg
+    thumb: craftbeerpassport-7.jpg
+  - name: craftbeerpassport-8.jpg
+    thumb: craftbeerpassport-8.jpg
+  - name: craftbeerpassport-9.jpg
+    thumb: craftbeerpassport-9.jpg
+  - name: craftbeerpassport-12.jpg
+    thumb: craftbeerpassport-12.jpg
+  - name: craftbeerpassport-13.jpg
+    thumb: craftbeerpassport-13.jpg
+  - name: craftbeerpassport-14.jpg
+    thumb: craftbeerpassport-14.jpg
+  - name: craftbeerpassport-15.jpg
+    thumb: craftbeerpassport-15.jpg
+  - name: craftbeerpassport-16.jpg
+    thumb: craftbeerpassport-16.jpg
 
-- id: example3
-  description: Third gallery tryna figure shit out
-  imagefolder: /assets/images/albums/example3
+
+- id: dudebox2017
+  title: Dudebox @ The Waverly Hotel, 2017
+  description: Celebrating the last day for the Waverly Hotel with a bang!
+  imagefolder: /assets/images/albums/Dudebox
   images:
-  - name: pic1.jpg
-    thumb: pic1.jpg
-  - name: pic2.jpg
-    thumb: pic2.jpg
-  - name: pic3.jpg
-    thumb: pic3.jpg
-  - name: pic4.jpg
-    thumb: pic4.jpg
-  - name: pic5.jpg
-    thumb: pic5.jpg
-  - name: pic6.jpg
-    thumb: pic6.jpg
-  - name: pic7.jpg
-    thumb: pic7.jpg
-  - name: pic8.jpg
-    thumb: pic8.jpg
-  - name: pic9.jpeg
-    thumb: pic9.jpeg
-  - name: pic10.jpg
-    thumb: pic10.jpg
-  - name: pic11.jpg
-    thumb: pic11.jpg
+  - name: kensington.jpg
+    thumb: kensington.jpg
+  - name: Dudebox-3.jpg
+    thumb: Dudebox-3.jpg
+  - name: Dudebox-4.jpg
+    thumb: Dudebox-4.jpg
+  - name: Dudebox-10.jpg
+    thumb: Dudebox-10.jpg
+  - name: Dudebox-15.jpg
+    thumb: Dudebox-15.jpg
+  - name: Dudebox-17.jpg
+    thumb: Dudebox-17.jpg
+  - name: Dudebox-18.jpg
+    thumb: Dudebox-18.jpg
+  - name: Dudebox-19.jpg
+    thumb: Dudebox-19.jpg
+  - name: Dudebox-20.jpg
+    thumb: Dudebox-20.jpg
+  - name: Dudebox-21.jpg
+    thumb: Dudebox-21.jpg
+
+- id: ny2017
+  title: Wordcamp 2017
+  description: Represented Hover for New York's WordCamp 2017
+  imagefolder: /assets/images/albums/NY2017
+  images:
+  - name: asumi-2.jpg
+    thumb: asumi-2.jpg
+  - name: asumi.jpg
+    thumb: asumi.jpg
+  - name: NewYork.jpg
+    thumb: NewYork.jpg
+  - name: NewYork-2.jpg
+    thumb: NewYork-2.jpg
+  - name: NewYork-3.jpg
+    thumb: NewYork-3.jpg
+  - name: NewYork-4.jpg
+    thumb: NewYork-4.jpg
+  - name: NewYork-5.jpg
+    thumb: NewYork-5.jpg
+  - name: NewYork-6.jpg
+    thumb: NewYork-6.jpg
+  - name: NewYork-7.jpg
+    thumb: NewYork-7.jpg
+  - name: NewYork-8.jpg
+    thumb: NewYork-8.jpg
+  - name: NewYork-10.jpg
+    thumb: NewYork-10.jpg
+  - name: NewYork-11.jpg
+    thumb: NewYork-11.jpg
+  - name: NewYork-12.jpg
+    thumb: NewYork-12.jpg
+  - name: NewYork-13.jpg
+    thumb: NewYork-13.jpg
+  - name: NewYork-14.jpg
+    thumb: NewYork-14.jpg
+
+- id: pignic
+  title: Pignic Festival 2017
+  description: Guinea pig festival because why not
+  imagefolder: /assets/images/albums/Pignic
+  images:
+  - name: pignic-2.jpg
+    thumb: pignic-2.jpg
+  - name: pignic-3.jpg
+    thumb: pignic-3.jpg
+  - name: pignic-4.jpg
+    thumb: pignic-4.jpg
+  - name: pignic-5.jpg
+    thumb: pignic-5.jpg
+  - name: pignic-6.jpg
+    thumb: pignic-6.jpg
+  - name: pignic.jpg
+    thumb: pignic.jpg

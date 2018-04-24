@@ -15,7 +15,7 @@ layout: default
   <a href="albums/{{ gallery.id }}.html">
   ![{{ gallery.id }}]({{ gallery.imagefolder }}/{{gallery.images[0].name }})
   </a>
-    {{ gallery.id }}
+    {{ gallery.title }}
   </div>
 
 {% endfor %}
