@@ -315,6 +315,7 @@ body {
   text-align: center;
   margin: 50px 0 75px auto; }
   .portrait img {
+    border-radius: 10px;
     height: 300px;
     width: 100%;
     object-fit: cover;
@@ -530,14 +531,14 @@ div.album p {
 
 @media only screen and (min-width: 768px) {
   div.album {
-    margin: 0px;
+    margin: 0 1.5% 0 3%;
     float: left;
-    width: 30%;
+    width: 45%;
     text-align: center; }
 
-  .album-container .album:nth-child(3n+2) {
-    margin-left: 5%;
-    margin-right: 5%; }
+  .album-container .album:nth-child(2n) {
+    margin-left: 1.5%;
+    margin-right: 3%; }
 
   div.desc {
     padding: 15px;
