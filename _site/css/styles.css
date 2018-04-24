@@ -321,9 +321,9 @@ body {
     object-fit: cover;
     background-color: #252525; }
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 960px) {
   .wrapper {
-    width: 800px; } }
+    width: 960px; } }
 header {
   width: 100%;
   background-color: #252525; }
@@ -526,6 +526,9 @@ footer {
   width: 100px;
   transition: 0.7s; }
 
+div.album img {
+  border-radius: 5px;
+  object-fit: cover; }
 div.album p {
   text-align: center; }
 
@@ -567,23 +570,18 @@ div.album p {
   opacity: 0.5;
   transition: 0.3s; }
 
-@media only screen and (min-width: 150px) {
+@media only screen and (min-width: 320px) {
   .masonry {
     -moz-column-count: 1;
     -webkit-column-count: 1;
     column-count: 1; } }
-@media only screen and (min-width: 400px) {
+@media only screen and (min-width: 768px) {
   .masonry {
     -moz-column-count: 2;
     -webkit-column-count: 2;
     column-count: 2; } }
-@media only screen and (min-width: 700px) {
+@media only screen and (min-width: 960px) {
   .masonry {
     -moz-column-count: 3;
     -webkit-column-count: 3;
     column-count: 3; } }
-@media only screen and (min-width: 1100px) {
-  .masonry {
-    -moz-column-count: 4;
-    -webkit-column-count: 4;
-    column-count: 4; } }

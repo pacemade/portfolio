@@ -1,4 +1,8 @@
 div.album {
+  img {
+    border-radius: 5px;
+    object-fit: cover;
+  }
   p {
     text-align: center;
   }
