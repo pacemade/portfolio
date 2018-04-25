@@ -350,7 +350,7 @@ header {
 .menu a {
   text-decoration: none;
   color: #fdd947;
-  font-size: 2em; }
+  font-size: 1.5em; }
 
 footer {
   background-color: #252525;
@@ -376,7 +376,7 @@ footer {
   vertical-align: middle;
   margin-bottom: 0; }
   .social img {
-    width: 40px;
+    width: 30px;
     margin: 15px; }
   .social img:hover {
     opacity: 0.5; }
@@ -450,7 +450,10 @@ footer {
 
 @media only screen and (min-width: 768px) {
   .site-header .logo {
-    font-size: 42px; } }
+    font-size: 42px; }
+
+  .social img {
+    width: 45px; } }
 @media only screen and (min-width: 990px) {
   .site-header li {
     float: left; }
