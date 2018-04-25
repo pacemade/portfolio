@@ -527,11 +527,15 @@ footer {
   text-shadow: 0 0 4px rgba(0, 0, 0, 0.72), 0 0 14px rgba(0, 0, 0, 0.45); }
 
 .icon {
-  height: 100px;
-  width: 100px;
+  height: 50px;
+  width: 50px;
   transition: 0.7s; }
 
 @media only screen and (min-width: 768px) {
+  .icon {
+    height: 100px;
+    width: 100px; }
+
   .panel.open {
     flex: 5; }
     .panel.open .icon {

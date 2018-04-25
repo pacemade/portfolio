@@ -65,8 +65,8 @@
 }
 
 .icon {
-  height: 100px;
-  width: 100px;
+  height: 50px;
+  width: 50px;
   transition: 0.7s;
 }
 //
@@ -77,6 +77,11 @@
 
 
 @media only screen and (min-width: $medium) {
+
+  .icon {
+    height: 100px;
+    width: 100px;
+  }
 
   .panel.open {
     flex: 5;
