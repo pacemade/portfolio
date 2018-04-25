@@ -8,6 +8,8 @@ div.album-container {
   font-size: .85em;
 }
 
+
+
 .album {
   text-align: center;
   display: inline-block;
@@ -19,10 +21,16 @@ div.album-container {
   -webkit-box-sizing: border-box;
   img {
     border-radius: 5px;
+    opacity: 0.8;
   }
   a {
     text-decoration: none;
   }
+  img:hover {
+    transition: 0.3s;
+    opacity: 1;
+  }
+
 }
 //
 @media only screen and (min-width: $medium) {

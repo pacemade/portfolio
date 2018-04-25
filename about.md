@@ -4,7 +4,7 @@ layout: default
 
 <div class="portrait" markdown="1">
   ![fireside docks](/assets/images/portraits/docks.jpg)
-  <h2> Web Developer | DJ | Dancer | Artist | Friend  </h2>
+  <h2> Web Developer | DJ | Dancer | Artist | Gamer | Friend  </h2>
 </div>
 
 <div class="about-text">
@@ -38,12 +38,14 @@ layout: default
   </p>
 </div>
 
-<h3>Other Things</h3>
+<div class="other">
+  <h3>You'll Also Find Me</h3>
+</div>
 
 <div class="album-container">
   <div class="album" markdown="1">
    ![my djing](/assets/images/home/dj.jpg)
-   Music/DJing
+   Making music/DJing
   </div>
   <div class="album" markdown="1">
    ![my sketches](/assets/images/home/sketch.jpg)
@@ -51,10 +53,10 @@ layout: default
   </div>  
   <div class="album" markdown="1">
    ![my dancing](/assets/images/home/dance.jpg)
-   Dance
+   Dancing
   </div>
   <div class="album" markdown="1">
-   ![my videogames](/assets/images/home/beeSmiles.JPG)
-   Video Games
+   ![my videogames](/assets/images/home/potg.png)
+   Getting Play Of The Game (Pacemaker#1211)
   </div>
 </div>

@@ -24,6 +24,14 @@ body {
   }
 }
 
+.other {
+  text-align: center;
+  h3 {
+    font-size: 1.8em;
+    font-weight: bold;
+  }
+}
+
 @media only screen and (min-width: $large) {
   .wrapper {
     width: 960px;
