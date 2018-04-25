@@ -387,7 +387,7 @@ footer {
 .site-header .logo {
   display: block;
   float: left;
-  font-size: 3em;
+  font-size: 33px;
   padding: 10px 20px;
   text-decoration: none;
   color: #fdd947; }
@@ -401,7 +401,7 @@ footer {
   cursor: pointer;
   display: inline-block;
   float: right;
-  padding: 35px 20px;
+  padding: 30px 20px 35px 20px;
   position: relative;
   user-select: none; }
 
@@ -448,6 +448,9 @@ footer {
 .site-header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
   top: 0; }
 
+@media only screen and (min-width: 768px) {
+  .site-header .logo {
+    font-size: 42px; } }
 @media only screen and (min-width: 990px) {
   .site-header li {
     float: left; }

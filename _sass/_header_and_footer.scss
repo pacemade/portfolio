@@ -3,6 +3,8 @@ header {
   background-color: $primaryColor;
 }
 
+
+
 // this lets the nav float right without being weird
 .site-header::after {
   content: '';
@@ -79,7 +81,7 @@ footer {
 .site-header .logo {
   display: block;
   float: left;
-  font-size: 3em;
+  font-size: 33px;
   padding: 10px 20px;
   text-decoration: none;
   color: $anchorColor;
@@ -99,7 +101,7 @@ footer {
   cursor: pointer;
   display: inline-block;
   float: right;
-  padding: 35px 20px;
+  padding: 30px 20px 35px 20px;
   position: relative;
   user-select: none;
 }
@@ -160,6 +162,12 @@ footer {
 }
 
 // Responsive
+@media only screen and (min-width: $medium) {
+  .site-header .logo {
+    font-size: 42px;
+  }
+
+}
 
 @media only screen and (min-width: 990px) {
   .site-header li {
