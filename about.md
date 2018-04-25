@@ -3,7 +3,7 @@ layout: default
 ---
 
 <div class="portrait" markdown="1">
-  ![Me](/assets/images/portraits/sonyA7.jpg)
+  ![fireside docks](/assets/images/portraits/docks.jpg)
   <h2> Web Developer | DJ | Dancer | Artist | Friend  </h2>
 </div>
 
