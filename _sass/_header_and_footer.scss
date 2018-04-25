@@ -3,8 +3,6 @@ header {
   background-color: $primaryColor;
 }
 
-
-
 // this lets the nav float right without being weird
 .site-header::after {
   content: '';
@@ -167,6 +165,7 @@ footer {
   .site-header {
     .logo {
       font-size: 3.0em;
+      padding-right: 0px;
     }
     li a {
       font-size: 1.6em;
@@ -181,13 +180,13 @@ footer {
 
 }
 
-@media only screen and (min-width: 1025px) {
+@media only screen and (min-width: $large) {
 
   .site-header li {
     float: left;
   }
   .site-header li a {
-    padding: 20px 30px;
+    padding: 20px 20px;
     display: table-cell;
     vertical-align: middle;
   }
