@@ -450,17 +450,21 @@ footer {
 
 @media only screen and (min-width: 768px) {
   .site-header .logo {
-    font-size: 42px; }
+    font-size: 3.0em; }
+  .site-header li a {
+    font-size: 1.6em; }
 
   .social img {
-    width: 45px; } }
-@media only screen and (min-width: 990px) {
+    width: 45px; }
+
+  .site-header .menu-icon {
+    padding-top: 38px; } }
+@media only screen and (min-width: 1025px) {
   .site-header li {
     float: left; }
 
   .site-header li a {
     padding: 20px 30px;
-    font-size: 1.5em;
     display: table-cell;
     vertical-align: middle; }
 

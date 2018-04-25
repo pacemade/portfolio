@@ -164,24 +164,30 @@ footer {
 // Responsive
 @media only screen and (min-width: $medium) {
 
-  .site-header .logo {
-    font-size: 42px;
+  .site-header {
+    .logo {
+      font-size: 3.0em;
+    }
+    li a {
+      font-size: 1.6em;
+    }
   }
   .social img {
     width: 45px;
   }
+  .site-header .menu-icon {
+    padding-top: 38px;
+  }
 
 }
 
+@media only screen and (min-width: 1025px) {
 
-
-@media only screen and (min-width: 990px) {
   .site-header li {
     float: left;
   }
   .site-header li a {
     padding: 20px 30px;
-    font-size: 1.5em;
     display: table-cell;
     vertical-align: middle;
   }
@@ -197,4 +203,5 @@ footer {
   .site-header .menu-icon {
     display: none;
   }
+
 }
