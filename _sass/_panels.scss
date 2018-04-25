@@ -36,9 +36,9 @@
   flex-direction: column;
 }
 
-  .panel1 { background-image:url(/assets/images/home/kittyMilk.JPG);}
-  .panel2 { background-image:url(/assets/images/home/beeSmiles.JPG);}
-  .panel3 { background-image:url(/assets/images/home/kittyMilk.JPG);}
+  .panel1 { background-image:url(/assets/images/home/thanks_jon.jpg);}
+  .panel2 { background-image:url(/assets/images/home/webdev.png);}
+  .panel3 { background-image:url(/assets/images/home/hoop.jpg);}
 
 .panel > * {
   margin:0;
@@ -49,11 +49,6 @@
   justify-content: center;
   align-items: center;
 }
-//
-// .panel > p:first-child { transform: translateY(-100%); }
-// .panel.open-active > *:first-child { transform: translateY(150px); }
-// .panel > p:last-child { transform: translateY(100%); }
-// .panel.open-active > *:last-child { transform: translateY(-150px); }
 
 .panel p {
   text-transform: uppercase;

@@ -42,15 +42,15 @@ layout: default
 
 <div class="album-container">
   <div class="album" markdown="1">
-   ![my djing](/assets/images/home/beeSmiles.JPG)
+   ![my djing](/assets/images/home/dj.jpg)
    Music/DJing
   </div>
   <div class="album" markdown="1">
-   ![my sketches](/assets/images/home/beeSmiles.JPG)
+   ![my sketches](/assets/images/home/sketch.jpg)
    Sketching (IG: paisuu)
   </div>  
   <div class="album" markdown="1">
-   ![my dancing](/assets/images/home/beeSmiles.JPG)
+   ![my dancing](/assets/images/home/dance.jpg)
    Dance
   </div>
   <div class="album" markdown="1">

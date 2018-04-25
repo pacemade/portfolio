@@ -506,13 +506,13 @@ footer {
   flex-direction: column; }
 
 .panel1 {
-  background-image: url(/assets/images/home/kittyMilk.JPG); }
+  background-image: url(/assets/images/home/thanks_jon.jpg); }
 
 .panel2 {
-  background-image: url(/assets/images/home/beeSmiles.JPG); }
+  background-image: url(/assets/images/home/webdev.png); }
 
 .panel3 {
-  background-image: url(/assets/images/home/kittyMilk.JPG); }
+  background-image: url(/assets/images/home/hoop.jpg); }
 
 .panel > * {
   margin: 0;
