@@ -47,7 +47,7 @@ layout: default
   </div>
   <div class="album" markdown="1">
    ![my sketches](/assets/images/home/sketch.jpg)
-   Sketching (IG: paisuu)
+   Sketching (IG: <a href="https://www.instagram.com/paisuu/">paisuu</a>)
   </div>  
   <div class="album" markdown="1">
    ![my dancing](/assets/images/home/dance.jpg)

@@ -20,6 +20,9 @@ div.album-container {
   img {
     border-radius: 5px;
   }
+  a {
+    text-decoration: none;
+  }
 }
 //
 @media only screen and (min-width: $medium) {

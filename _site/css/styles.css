@@ -564,6 +564,8 @@ div.album-container {
   -webkit-box-sizing: border-box; }
   .album img {
     border-radius: 5px; }
+  .album a {
+    text-decoration: none; }
 
 @media only screen and (min-width: 768px) {
   div.album-container {
