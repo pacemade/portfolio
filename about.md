@@ -49,7 +49,7 @@ layout: default
   </div>
   <div class="about-item" markdown="1">
    ![my sketches](/assets/images/home/sketch.jpg)
-   Sketching (IG: <a href="https://www.instagram.com/paisuu/">paisuu</a>)
+   Sketching (IG: <a href="https://www.instagram.com/paisuu/" class="link">paisuu</a>)
   </div>  
   <div class="about-item" markdown="1">
    ![my dancing](/assets/images/home/dance.jpg)

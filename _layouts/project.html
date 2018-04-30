@@ -9,7 +9,7 @@ layout: default
     {% if project.id == page.projectid %}
       <h1>{{ project.title }}</h1>
       <h4>{{ project.description }}</h4>
-      <h4><a href="https://{{ project.link }}">{{ project.link }}</a></h4>
+      <h4><a href="https://{{ project.link }}" class="link">{{ project.link }}</a></h4>
       <div class="masonry">
         {% for image in project.images %}
           <div class="item"><a href="{{ project.imagefolder }}/{{ image.name }}" data-lightbox="{{ project.id }}" title="{{ image.text }}">
