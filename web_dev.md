@@ -15,7 +15,7 @@ layout: default
   <a href="projects/{{ project.id }}.html">
   ![{{ project.id }}]({{ project.imagefolder }}/{{project.images[0].name }})
   </a>
-    {{ project.id }}
+    {{ project.title }}
   </div>
 
 {% endfor %}

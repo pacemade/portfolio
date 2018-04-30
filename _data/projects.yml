@@ -1,13 +1,22 @@
-- id: project1
-  description: example project that i need to see
-  imagefolder: /assets/images/projects/project1
+- id: playmyparty
+  title: PlayMyParty
+  description: Final Project For Bitmaker Web Development
+  link: playmyparty.herokuapp.com
+  imagefolder: /assets/images/projects/playmyparty
   images:
   - name: home.png
     thumb: home.png
-    text: 
-  - name: googleMaps.png
-    thumb: googleMaps.png
-  - name: newAccount.png
-    thumb: newAccount.png
+  - name: register1.png
+    thumb: register1.png
+  - name: registerMusician.png
+    thumb: registerMusician.png
   - name: profilePage.png
     thumb: profilePage.png
+  - name: browseMusicians.png
+    thumb: browseMusicians.png
+  - name: musiciansRadius.png
+    thumb: musiciansRadius.png
+  - name: findMusicians.png
+    thumb: findMusicians.png
+  - name: confirmBooking.png
+    thumb: confirmBooking.png

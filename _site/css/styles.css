@@ -333,6 +333,34 @@ body {
 @media only screen and (min-width: 960px) {
   .wrapper {
     width: 960px; } }
+div.about-container {
+  column-count: 1;
+  margin: 0.5em 0;
+  padding: 0;
+  -moz-column-gap: 1em;
+  -webkit-column-gap: 1em;
+  column-gap: 1em;
+  font-size: .85em; }
+
+.about-item {
+  text-align: center;
+  display: inline-block;
+  padding: 0.3em;
+  margin: 0;
+  width: 100%;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box; }
+  .about-item img {
+    border-radius: 5px; }
+  .about-item a {
+    text-decoration: none; }
+
+@media only screen and (min-width: 768px) {
+  div.about-container {
+    -moz-column-count: 2;
+    -webkit-column-count: 2;
+    column-count: 2; } }
 header {
   width: 100%;
   background-color: #252525; }

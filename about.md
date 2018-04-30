@@ -42,20 +42,20 @@ layout: default
   <h3>You'll Also Find Me</h3>
 </div>
 
-<div class="album-container">
-  <div class="album" markdown="1">
+<div class="about-container">
+  <div class="about-item" markdown="1">
    ![my djing](/assets/images/home/dj.jpg)
    Making music/DJing
   </div>
-  <div class="album" markdown="1">
+  <div class="about-item" markdown="1">
    ![my sketches](/assets/images/home/sketch.jpg)
    Sketching (IG: <a href="https://www.instagram.com/paisuu/">paisuu</a>)
   </div>  
-  <div class="album" markdown="1">
+  <div class="about-item" markdown="1">
    ![my dancing](/assets/images/home/dance.jpg)
    Dancing
   </div>
-  <div class="album" markdown="1">
+  <div class="about-item" markdown="1">
    ![my videogames](/assets/images/home/potg.png)
    Getting Play Of The Game (Pacemaker#1211)
   </div>

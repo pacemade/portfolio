@@ -34,11 +34,13 @@ div.album-container {
 }
 //
 @media only screen and (min-width: $medium) {
+
   div.album-container {
     -moz-column-count: 2;
     -webkit-column-count: 2;
     column-count: 2;
   }
+
 }
 //
 //   div.album {
