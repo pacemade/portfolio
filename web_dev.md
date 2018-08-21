@@ -3,8 +3,8 @@ layout: default
 ---
 
 <div class="portrait" markdown="1" >
-  ![Project](/assets/images/portraits/sonyA7.jpg)
-  <h2> HTML | CSS | Javascript | Ruby on Rails  </h2>
+  ![Project](/assets/images/portraits/hello_world.png)
+  <h2> HTML | CSS | Javascript | Ruby on Rails | ReactJS </h2>
 </div>
 
 <div class="album-container">
