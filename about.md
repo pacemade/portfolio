@@ -25,16 +25,17 @@ layout: default
   </p> -->
 
   <p>
-    It wasn't until I had a life changing conversation with a very inspiring developer, that I realized I could combine all of my passions
+    It wasn't until I had a life changing conversation with an inspiring and passionate developer, that I realized I could combine all of my favorite past times
     into a single, focused stream. Designing and developing websites would still allow me to scratch the itch having to artistically
-    create content, and at the same time be able to incoporate the fields of my previous professions. I quickly set out to
-    gain a foundational skill-set in web development and less than a year later, I am proud to say that I am a Full Stack Web Developer,
-    ready to take on the world!
+    create content, and at the same time be able to "get into the zone" while hacking my way through a web application.
   </p>
 
   <p>
-    Currently, I am working on this portfolio site while sprinkling in some Javascript here and there, with the ultimate goal of picking up React. I applaud you if you've made it this far, hit me up if you'd like get some coffee or just
-    chat about anything, don't hesitate to get in touch!
+    Since then, I've had the pleasure and privilege of meeting many senior developers and designers from different walks of life, only to discover that there is so much more to learn!
+  </p>
+
+  <p>
+    These days you'll find me trying to learn some constructional drawing using the DrawABox method (r/artfundementals), while teaching myself React through Udemy, as well as strengthening my foundation by parsing "You Don't Know JS" by Kyle Simpson. I'm always happy to meet like-minded people, so if you'd like to have coffee, lunch, dinner, or just a talk, hit me up!
   </p>
 </div>
 
