@@ -6,4 +6,19 @@ layout: blog_main
 
 <div class="lineBreak"></div>
 
-<p class="blogIntro">I've had the privilege of meeting different people from all walks of life, working in different professions with different goals and values in mind. However, one thing they do have in common, is the fact that they had inspired me to be a better version of myself; to push towards my own goals, or to see my own values in a different perspective. These are those people.</p>
+<p class="blogIntro">I've had the privilege of meeting different people from all walks of life, working in different professions with different goals and values in mind. However, one thing they do have in common, is the fact that they had inspired me to be a better version of myself; to push towards my own goals, or to see my own values in a different perspective. These are the stories of those people.</p>
+
+<div class="blogGalleryMain">
+  {% for gallery in site.data.inmyshoes %}
+    {% for image in gallery.images %}
+      <div class="portraitsBlog">
+        <h2 class="blogName">{{ image.name }}</h2>
+        <img src="{{ gallery.imagefolder }}/{{ image.filename }}" alt="please the work">
+        <div class="stats">
+          <p>Occupation: {{ image.occupation }}</p>
+          <p>{{ image.factCategory }}: {{ image.factFact }} </p>
+        </div>
+      </div>
+    {% endfor %}
+  {% endfor %}
+</div>

@@ -10,20 +10,6 @@ layout: default
 <div class="about-text">
   <h1>Hello world, it's Danny</h1>
 
-  <!-- <p>
-    I've spent a great portion of my life looking for a craft that would allow me to consistently create experiences for others to enjoy.
-    This search led me to explore many different possibilities; I spent a good chunk of time looking to contribute to the world through the power of science,
-    vying to become an environmental scientist that would analyze the air, water and soil, as well as come up with sustainable
-    solutions with alternative energy.
-  </p>
-
-  <p>
-     Along with that, I was also able to dive into the art of DJing. I started off by playing out at small events like house parties
-     and public venues, which eventually opened up opportunies for me to perform at corporate events and weddings. At certain
-     points in my life, I had entertained the idea of becoming a professional gamer, a photographer, a film-maker, a dancer, a chef, the list
-     goes on!
-  </p> -->
-
   <p>
     It wasn't until I had a life changing conversation with an inspiring and passionate developer, that I realized I could combine all of my favorite past times
     into a single, focused stream. Designing and developing websites would still allow me to scratch the itch having to artistically

@@ -1,0 +1,17 @@
+- id: inmyshoes
+  title: In My Shoes
+  description: portraits and drawings from blog
+  imagefolder: /assets/images/inmyshoes
+  images:
+  - filename: montTremblanc.jpg
+    name: Marty McBooBoo
+    occupation: Superhero
+    factCategory: Favorite Ice Cream
+    factFact: Pikachu
+    bgColor: yellow
+  - filename: remember.jpg
+    name: Poonaannaan Javeshski
+    occupation: Burger Flipper
+    factCategory: Favorite Condiment
+    factFact: Ice Cream
+    bgColor: blue
