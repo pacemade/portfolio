@@ -13,7 +13,9 @@ layout: blog_main
     {% for image in gallery.images %}
       <div class="portraitsBlog">
         <h2 class="blogName">{{ image.name }}</h2>
-        <img src="{{ gallery.imagefolder }}/{{ image.filename }}" alt="please the work">
+          <a href="inmyshoes/{{ image.name }}.html">
+            <img class="blogImage" src="{{ gallery.imagefolder }}/{{ image.filename }}">
+          </a>
         <div class="stats">
           <p>Occupation: {{ image.occupation }}</p>
           <p>{{ image.factCategory }}: {{ image.factFact }} </p>

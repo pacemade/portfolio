@@ -379,15 +379,20 @@ div.about-container {
   margin: auto;
   padding: 40px; }
 
-.blogName {
-  text-align: center; }
-
 .stats p {
   text-align: center; }
 
+.blogName {
+  position: absolute;
+  left: 5%;
+  top: 3%;
+  text-align: center; }
+
 .portraitsBlog {
-  padding-top: 10px;
-  padding-bottom: 10px;
+  position: relative;
+  background-color: grey;
+  padding-top: 5px;
+  padding-bottom: 5px;
   margin-top: 40px; }
 
 header {
